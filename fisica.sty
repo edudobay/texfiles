@@ -1,0 +1,88 @@
+% ============================================================================
+% fisica.sty
+% ----------
+%   autor:  Eduardo Dobay
+%    data:  12 Out 2009
+% ============================================================================
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{fisica}[2009/10/12 Personal shortcuts]
+\RequirePackage{amsmath}
+
+% ----------------------------------------------------------------------------
+% Operadores e funções matemáticas
+% ----------------------------------------------------------------------------
+
+\DeclareMathOperator{\sen}{sen}
+\DeclareMathOperator{\cossec}{cossec}
+\DeclareMathOperator{\tg}{tg}
+\DeclareMathOperator{\arcsen}{arcsen}
+\DeclareMathOperator{\arctg}{arctg}
+
+\newcommand{\ud}{\mathrm{d}}
+
+
+% ----------------------------------------------------------------------------
+% Unidades
+% ----------------------------------------------------------------------------
+
+% Comando para exibir uma unidade não especificada abaixo.
+% Exemplo:  A pressão é de $200 \unidade{Pa}$.
+\newcommand{\unidade}[1]{\mathrm{#1}}
+
+%% Unidades mecânicas
+\newcommand{\meter}{\mathrm{m}}
+\newcommand{\second}{\mathrm{s}}
+\newcommand{\gram}{\mathrm{g}}
+\newcommand{\kg}{\mathrm{kg}}
+\newcommand{\newton}{\mathrm{N}}
+\newcommand{\joule}{\mathrm{J}}
+\newcommand{\watt}{\mathrm{W}}
+\newcommand{\pascal}{\mathrm{Pa}}
+
+\newcommand{\kelvin}{\mathrm{K}}
+
+%% Unidades eletromagnéticas
+\newcommand{\volt}{\mathrm{V}}
+\newcommand{\coulomb}{\mathrm{C}}
+\newcommand{\ampere}{\mathrm{A}}
+\newcommand{\ohm}{\ensuremath\Omega}
+\newcommand{\tesla}{\mathrm{T}}
+\newcommand{\gauss}{\mathrm{G}}
+\newcommand{\henry}{\mathrm{H}}
+\newcommand{\farad}{\mathrm{F}}
+\newcommand{\hertz}{\mathrm{Hz}}
+
+\newcommand{\angstrom}{\text{\AA}}
+\newcommand{\eV}{\mathrm{eV}}
+\newcommand{\degree}{\ensuremath{^{\circ}}}
+
+\newcommand{\litre}{\mathrm{L}}
+\newcommand{\llitre}{\ensuremath{\ell}}
+\let\liter\litre
+\let\lliter\llitre
+
+%% Unidades impuras
+\newcommand{\rad}{\mathrm{rad}}
+\newcommand{\mol}{\mathrm{mol}}
+\newcommand{\celsius}{\ensuremath{^{\circ}\mathrm{C}}}
+
+\newcommand{\poise}{\mathrm{P}}
+\newcommand{\cmHg}{\mathrm{cmHg}}
+\newcommand{\mmHg}{\mathrm{mmHg}}
+
+%% Prefixos métricos
+\newcommand{\femto}{\mathrm{f}}
+\newcommand{\pico}{\mathrm{p}}
+\newcommand{\nano}{\mathrm{n}}
+\newcommand{\micro}{\ensuremath\mu}
+\newcommand{\milli}{\mathrm{m}}
+\newcommand{\centi}{\mathrm{c}}
+\newcommand{\kilo}{\mathrm{k}}
+\newcommand{\mega}{\mathrm{M}}
+\newcommand{\giga}{\mathrm{G}}
+
+%% Abreviações comuns
+\newcommand{\mm}{\milli\meter}
+\newcommand{\cm}{\centi\meter}
+
